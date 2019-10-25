@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 315.8 686.48" style="enable-background:new 0 0 315.8 686.48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#443D4A;stroke-width:18;stroke-miterlimit:10;}
+	.st1{fill:#443D4A;}
+	.st2{clip-path:url(#SVGID_2_);fill:none;stroke:#443D4A;stroke-width:2.6499;stroke-miterlimit:10;}
+</style>
+<g id="Layer_2">
+	<path class="st0" d="M24.61,23.17c0,0,75.82-1.33,113.06,98.43s78.48,115.72,122.38,73.16s57.2-6.65,38.57,33.25
+		C280,267.92,85.8,658.99,85.8,658.99l-19.95-51.43L24.61,23.17z"/>
+	<polygon class="st1" points="298.62,228.01 155.63,641.56 55.87,631.05 	"/>
+	<path class="st1" d="M65.84,607.56L40.9,623.07v51.88c0,0,62.85,25.94,130.69,0v-48.88l-31.92-18.51"/>
+	<path class="st1" d="M19.95,63.4L0,3.55c0,0,39.9-7.98,55.87,0S113.71,20,142.66,104.31s58.19,116.06,117.39,90.45
+		c0,0-47.79,70.03-94.34-4.66C113.06,105.64,65.18,51.77,19.95,63.4z"/>
+</g>
+<g id="Layer_3">
+</g>
+<g id="Layer_4">
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M29.93,35.47c0,0,93.94,26.23,135.78,144.66c11.54,37.91,69.32,48.89,112.92,0
+				c37.62-21.95,39.1,22.31,11.91,71.25S85.8,628.06,85.8,628.06H67.84L29.93,35.47z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<line class="st2" x1="59.09" y1="62.38" x2="98.12" y2="602.04"/>
+		<line class="st2" x1="83.98" y1="60.58" x2="123.01" y2="600.24"/>
+		<line class="st2" x1="108.68" y1="56.36" x2="147.71" y2="596.02"/>
+		<line class="st2" x1="133.5" y1="54.64" x2="172.53" y2="594.3"/>
+		<line class="st2" x1="158.2" y1="50.42" x2="197.23" y2="590.08"/>
+		<line class="st2" x1="181.85" y1="48.16" x2="220.87" y2="587.82"/>
+		<line class="st2" x1="206.66" y1="46.44" x2="245.69" y2="586.1"/>
+		<line class="st2" x1="253.05" y1="13.56" x2="292.07" y2="553.22"/>
+		<line class="st2" x1="274.11" y1="3" x2="313.14" y2="542.66"/>
+		<line class="st2" x1="231.36" y1="42.22" x2="270.39" y2="581.88"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,226 @@
+
+/* ---------- [ Border Box ] ----------- */
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+	html {
+		box-sizing: border-box;
+        scroll-behavior: smooth;
+		}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+		}
+
+
+/* Basic Styles */
+	
+		body {
+            font-size:16px;
+			color:  #fff;
+			font-family: 'Georgia', serif;
+			font-style: normal;
+			line-height: 29px;
+            text-align: left;
+            letter-spacing:.2pt;}
+
+        a {text-decoration: none;}
+
+
+/* Typography */
+
+        @font-face {
+            font-family: "Champagne & Limousines";
+            src: url("fonts/champagne__limousines_bold.ttf");
+            src: url("fonts/champagne__limousines_bold-webfont.woff") format("woff"),
+                 url("fonts/champagne__limousines_bold-webfont.woff2") format("woff2");
+            }       
+
+		p {
+			margin: 0 0 20px 0;
+			}
+
+		h1 {
+			font-family: 'Champagne & Limousines', serif;
+			font-weight: bold;
+			font-size: 90px;
+            color:#fff;
+			line-height: 70px;
+            text-transform: uppercase;
+
+			}
+
+		h2 {
+			font-family: 'Champagne & Limousines', serif;
+			font-size: 50px;
+			line-height: 150px;
+            letter-spacing: 2pt;
+            text-transform: uppercase;
+            text-align: center;
+			}
+
+		h3 {
+			font-family: 'Champagne & Limousines', serif;
+			font-size: 21.33px;
+			line-height: 22px;
+            letter-spacing: 0.03em;
+            color: #A4391D;
+			}
+
+		.large-text {
+			font-size: 21.33px;
+			line-height: 35px;
+            }
+		
+		.small-text {
+			font-size: 13px;
+			line-height: 80px;}
+
+        .cap {
+            font-size:22px;
+            }
+        
+        .tag {
+            font-family: 'Georgia', serif;
+			font-weight: regular;
+			font-size: 21.33px;
+            letter-spacing: 0.03em;
+            color: #A4391D;
+            text-decoration: none;}
+
+
+
+/* Simple Grid - 12 columns 60/20    */
+
+		
+	/* 1 column */
+		.columns_1 {
+			width: 940px;
+			float: left;
+			}
+
+	/* 2 columns */
+		.columns_2 {
+			width: 460px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_2:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 3 columns */
+		.columns_3 {
+			width: 300px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_3:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 4 columns */
+		.columns_4 {
+			width: 220px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_4:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 6 columns */
+		.columns_6 {
+			width: 140px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_6:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 12 columns */
+		.columns_12 {
+			width: 140px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_12:last-of-type {
+			margin-right: 0;
+			}
+
+        .row {
+            clear:both;}
+        
+
+
+/* Buttons */
+
+		.button {
+			display: inline-block;
+			padding: 10px 25px;
+			text-align:center;
+            font-family: 'Linux Biolinum', serif;
+            text-transform:uppercase;
+            letter-spacing:0.1em;
+            color:#fff;
+			border-radius:10px;
+			cursor: pointer;
+            background-color:#A4391D;
+			}
+
+		.button:link, .button:visited {
+			color: #fff;
+			text-decoration:none;
+			}
+
+		.button:hover, .button:active {
+			color: #ff6600;
+			text-decoration:none;
+			border-radius:10px;
+			}
+
+
+/* Miscellaneous */
+
+		.align-right {
+			float: right;
+			margin: 0 0 0 10px;
+			padding: 0;
+			}
+
+		.align-left {
+			float: left;
+			margin: 0 10 0 0px;
+			padding: 0;
+			}
+
+		.align-center {
+			display: block;
+			margin: 0 auto;
+			}
+
+		.container {
+			width:940px;
+			display: block;
+			margin: 0 auto;
+			overflow: hidden;
+			clear: both;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+		
