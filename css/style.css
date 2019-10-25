@@ -29,10 +29,10 @@ nav ul {
 }
 
 nav li {
-  font-family: 'Champagne & Limousines', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   text-transform: uppercase;
-  letter-spacing: .15em;
+  letter-spacing: 1pt;
   display: inline-block;
   margin-left: 30px;
 }
@@ -74,6 +74,7 @@ nav li a:hover, nav li a:active {
 
 .cta {
     position: absolute;
+    font-weight: 500;
     top: 600px;
     float: center;
     text-align: center;
@@ -98,6 +99,7 @@ nav li a:hover, nav li a:active {
   background-image: url("../images/bio.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
 }
 
 .bio h2 {
@@ -126,12 +128,41 @@ nav li a:hover, nav li a:active {
 
 /* ---------------------------------------------------------------- */
 
+
+/* Life */
+
+.life {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #2A2233;
+  background-image: url("../images/harp.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.life h2 {
+    color: #B796FF; 
+}
+
+.carousel-cell {
+  width: 100%;
+  counter-increment: carousel-cell;
+  text-align: left;
+}
+
+
+
+
+/* ---------------------------------------------------------------- */
+
 /* Rollover Gallery */
 
 
 .boxgrid h3 {
   margin: 10px 10px 5px 10px;
   color: #fff;
+  letter-spacing: -.5pt;
   text-transform: uppercase;
 }
 
@@ -170,7 +201,7 @@ nav li a:hover, nav li a:active {
 .boxgrid:hover {
   width: 260px;
   height: 260px; transition: all .2s ease;
-  margin: 0 0 60px 20px;
+  margin: -4px 0 60px 18px;
 }
 
 .boxcaption {

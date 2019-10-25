@@ -21,27 +21,20 @@
 			font-style: normal;
 			line-height: 29px;
             text-align: left;
-            letter-spacing:.2pt;}
+            letter-spacing:.4pt;}
 
         a {text-decoration: none;}
 
 
 /* Typography */
 
-        @font-face {
-            font-family: "Champagne & Limousines";
-            src: url("fonts/champagne__limousines_bold.ttf");
-            src: url("fonts/champagne__limousines_bold-webfont.woff") format("woff"),
-                 url("fonts/champagne__limousines_bold-webfont.woff2") format("woff2");
-            }       
-
 		p {
 			margin: 0 0 20px 0;
 			}
 
 		h1 {
-			font-family: 'Champagne & Limousines', serif;
-			font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
 			font-size: 90px;
             color:#fff;
 			line-height: 70px;
@@ -50,7 +43,8 @@
 			}
 
 		h2 {
-			font-family: 'Champagne & Limousines', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
 			font-size: 50px;
 			line-height: 150px;
             letter-spacing: 2pt;
@@ -59,11 +53,12 @@
 			}
 
 		h3 {
-			font-family: 'Champagne & Limousines', serif;
-			font-size: 21.33px;
+			font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+			font-size: 28px;
 			line-height: 22px;
             letter-spacing: 0.03em;
-            color: #A4391D;
+            color: #fff;
 			}
 
 		.large-text {
@@ -73,7 +68,7 @@
 		
 		.small-text {
 			font-size: 13px;
-			line-height: 80px;}
+            color: #857990;}
 
         .cap {
             font-size:22px;

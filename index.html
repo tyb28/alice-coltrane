@@ -13,12 +13,14 @@
 	
 	<!-- web fonts -->
 	   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
 	
 	<!-- external stylesheets -->
 	   <link href="css/normalize.css" rel="stylesheet" type="text/css">
 	   <link href="css/base.css" rel="stylesheet" type="text/css">
 	   <link href="css/style.css" rel="stylesheet" type="text/css">
 	   <link href="css/rslides.css" rel="stylesheet" type="text/css">
+	   <link href="css/flickity.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -55,10 +57,11 @@
 </ul>
         
         <div class="container">
-            <h2 class="hero-txt" style="top:75px; margin-left:-250px;">The</h2>
-            <h1 class="hero-txt" style="letter-spacing: 5px; margin-left:20px;">Grandmother</h1>
-            <h2 class="hero-txt" style="margin-top: 100px; margin-left:-265px;">of</h2>
-            <h1 class="hero-txt" style="margin-top:148px;margin-left: 60px;">Spiritual Jazz</h1>
+            <h2 class="hero-txt" style="top:65px; margin-left:-310px; font-weight: 500;">The</h2>
+            <h1 class="hero-txt" style="letter-spacing: 2pt; margin-left:20px;">Grandmother</h1>
+            <h2 class="hero-txt" style="margin-top: 100px; margin-left:-333px; font-weight: 500;">of</h2>
+            <h1 class="hero-txt" style="margin-top:148px;margin-left: 60px;
+            letter-spacing: -2pt;">Spiritual Jazz</h1>
             <h2 class="cta">Learn about and Listen to the music of Alice Coltrane</h2>
         </div>
     </section><!-- end hero -->
@@ -71,7 +74,7 @@
         <div class="container">
             <h2>Biography</h2>
             <div class="columns_3">
-                <p><span style="float: left; width: 0.65em; font-size: 650%; font-family: 'Champagne & Limousines', sans-serif; line-height: 84%;">A</span>lice Coltrane, maiden name McLeod, was born August 27, 1937, in Detroit, Michigan, and passed in 2007. She was also known by her adopted Sanskrit name Turiyasangitananda or Turiya Alice Coltrane. She is an influential American jazz musician and composer, and in her later years a swamini. One of the few harpists in the history of jazz, she recorded many albums as a bandleader, beginning in the late 1960s and early 1970s for Impulse! and other major record labels. She was married to jazz saxophonist and composer John
+                <p><span style="float: left; width: 0.65em; font-size: 650%; font-family: 'Montserrat', sans-serif; line-height: 84%;">A</span>lice Coltrane, maiden name McLeod, was born August 27, 1937, in Detroit, Michigan, and passed in 2007. She was also known by her adopted Sanskrit name Turiyasangitananda or Turiya Alice Coltrane. She is an influential American jazz musician and composer, and in her later years a swamini. One of the few harpists in the history of jazz, she recorded many albums as a bandleader, beginning in the late 1960s and early 1970s for Impulse! and other major record labels. She was married to jazz saxophonist and composer John
             </div> <!-- end columns_3 -->
             <div class="columns_3">
                 <p>Coltrane, who passed in 1967.</p>
@@ -153,7 +156,39 @@
         </div> <!-- end container -->
     </section> <!-- end discography -->
     
+     
     
+    <!------------------------------------------------------------------->
+    
+    
+
+    <section class="life" data-scroll-index="3">
+        <div class="container" style="width: 1200px;">
+            <h2>Life</h2>
+        
+            <div class="main-carousel" data-flickity='{ "wrapAround": true }'>
+             <div class="carousel-cell">
+                 <div class="container">
+                 
+                     <div class="columns_2">
+                        <h3>Early Years & Career</h3>
+                 
+                         <p>Alice McLeod was born on August 27, 1937, in Detroit, Michigan, and grew up in a musical household. Her mother was a member of the choir at her church, and her half brother became a jazz bassist. With the motivation of her father, Alice pursued music and started to perform in various clubs around Detroit, until moving to Paris in the late 1950s. She studied classical music, and also jazz with Bud Powell in Paris, where she worked as the intermission pianist at the Blue Note Jazz Club in 1960. It was there that Alice appeared on French television in a performance with Lucky Thompson, Pierre Michelot and Kenny Clarke.</p>
+
+                         <p>She married Kenny “Pancho” Hagood in 1960 and had a daughter with him. The marriage ended soon after, on account of Hagood’s developing heroin addiction, and Alice was forced to move back to Detroit with her daughter. She continued playing jazz as a professional in Detroit, with her own trio and as a duo with vibist Terry Pollard. </p>
+                    </div>
+                     
+                    <div class="columns_2">
+                         <p style="margin-top:78px;"> In 1962–63 she played with Terry Gibbs’ quartet, during which time she met John Coltrane. In 1965 they were married in Juárez, Mexico. John Coltrane became stepfather to Alice’s daughter Michelle, and the couple had three children together: John Jr. (1964–1982, a drummer); Ravi (b. 1965, a saxophonist); and Oranyan (b. 1967, a DJ). Oranyan later played saxophone with Santana for a period of time.</p>
+                         <img src="images/johnandalice.png" width=380px>
+                         <p class="small-text" style="margin: -10px 0 0 190px;">John & Alice seated together.</p>
+                    </div></div></div>
+                 
+            </div> <!-- end main carousel -->
+        </div> <!-- end container -->
+    </section> <!-- end life -->
+        
+        
     
     <!------------------------------------------------------------------->
     
@@ -166,10 +201,13 @@
 <script src='js/scrollIt.min.js'></script>
 <script src='js/responsiveslides.min.js'></script>
 <script src='js/rollover-gallery.min.js'></script>
+<script src='js/flickity.pkgd.min.js'></script>
 <script  src="./script.js"></script>
 
     
     </body>
+    
+    
 </html>
 
 
