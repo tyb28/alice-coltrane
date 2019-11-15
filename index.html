@@ -9,6 +9,7 @@
 	   <meta name="description" content="Project 1: Jazz Website - Alice Coltrane">
 	   <meta name="author" content="Tiffany Byrne">
 	   <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="icon" type="image/png" href="images/logo.png">
 	
 	
 	<!-- web fonts -->
@@ -19,8 +20,12 @@
 	   <link href="css/normalize.css" rel="stylesheet" type="text/css">
 	   <link href="css/base.css" rel="stylesheet" type="text/css">
 	   <link href="css/style.css" rel="stylesheet" type="text/css">
+	   <link href="css/aos.css" rel="stylesheet" type="text/css">
 	   <link href="css/rslides.css" rel="stylesheet" type="text/css">
 	   <link href="css/flickity.css" rel="stylesheet" type="text/css">
+	   <link href="css/green-audio-player.css" rel="stylesheet" type="text/css">
+       <link rel="stylesheet" href="dist/css/main.min.css">
+
 
 </head>
 
@@ -28,133 +33,404 @@
 <body>
     
     
-    <header class="headroom headroom--pinned headroom--unpinned">
-        <a href="/" class="branding">Alice Coltrane: Spiritual Jazz Musician</a>
+<header class="headroom headroom--pinned headroom--unpinned">
+    <a data-scroll-nav="0" class="branding">Alice Coltrane: Spiritual Jazz Musician</a>
 
-        <nav>
-            <ul class="navigation">
-                <li><a data-scroll-nav="0">Home</a></li>
-                <li><a data-scroll-nav="1">Biography</a></li>
-                <li><a data-scroll-nav="2">Discography</a></li>
-                <li><a data-scroll-nav="3">Life</a></li>
-                <li><a data-scroll-nav="4">Legacy</a></li>
-                <li><a data-scroll-nav="5">Subscribe</a></li>
-            </ul>
-        </nav>
-
-    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a data-scroll-nav="0">Home</a></li>
+            <li><a data-scroll-nav="1">Biography</a></li>
+            <li><a data-scroll-nav="2">Discography</a></li>
+            <li><a data-scroll-nav="3">Life</a></li>
+            <li><a data-scroll-nav="4">Legacy</a></li>
+            <li><a data-scroll-nav="5">Subscribe</a></li>
+        </ul>
+    </nav>
+</header>
+    
     
     
     <!------------------------------------------------------------------->
     
     
 
-    <section class="hero-slide" data-scroll-index="0"> 
-        <ul class="rslides">
-  <li><img src="images/hero01.png" alt="1"></li>
-  <li><img src="images/hero02.png" alt="2"></li>
-  <li><img src="images/hero03.png" alt="3"></li>
-</ul>
+<section class="hero-slide" data-scroll-index="0"> 
+    <ul class="rslides">
+        <li><img src="images/hero01.png" alt="1"></li>
+        <li><img src="images/hero02.png" alt="2"></li>
+        <li><img src="images/hero03.png" alt="3"></li>
+        <li><img src="images/hero04.png" alt="4"></li>
+    </ul>
         
-        <div class="container">
-            <h2 class="hero-txt" style="top:65px; margin-left:-310px; font-weight: 500;">The</h2>
-            <h1 class="hero-txt" style="letter-spacing: 2pt; margin-left:20px;">Grandmother</h1>
-            <h2 class="hero-txt" style="margin-top: 100px; margin-left:-333px; font-weight: 500;">of</h2>
-            <h1 class="hero-txt" style="margin-top:148px;margin-left: 60px;
-            letter-spacing: -2pt;">Spiritual Jazz</h1>
-            <h2 class="cta">Learn about and Listen to the music of Alice Coltrane</h2>
-        </div>
-    </section><!-- end hero -->
+    <div class="container noselect">
+        <div class="hero-txt" data-aos="zoom-in" data-aos-duration="800"><img src="images/headline.png" style="width:100%;"></div>
+        <h2 class="cta" data-aos="fade-down"  data-aos-delay="500"
+     data-aos-duration="900">Learn about and Listen to the music of Alice Coltrane</h2>
+    </div>
+</section><!-- end hero -->
 
     
+    
     <!------------------------------------------------------------------->
     
     
-    <section class="bio" data-scroll-index="1">
-        <div class="container">
-            <h2>Biography</h2>
+    
+<section class="bio" data-scroll-index="1">
+    <div class="container">
+        <h2 class="noselect" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Biography</h2>
+        <div class="row" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1400">
             <div class="columns_3">
-                <p><span style="float: left; width: 0.65em; font-size: 650%; font-family: 'Montserrat', sans-serif; line-height: 84%;">A</span>lice Coltrane, maiden name McLeod, was born August 27, 1937, in Detroit, Michigan, and passed in 2007. She was also known by her adopted Sanskrit name Turiyasangitananda or Turiya Alice Coltrane. She is an influential American jazz musician and composer, and in her later years a swamini. One of the few harpists in the history of jazz, she recorded many albums as a bandleader, beginning in the late 1960s and early 1970s for Impulse! and other major record labels. She was married to jazz saxophonist and composer John
-            </div> <!-- end columns_3 -->
+                <p><span style="float: left; width: 0.7em; font-size: 650%; font-family: 'Helvetica', sans-serif; line-height: 84%; font-weight:200;">A</span>lice Coltrane, maiden name McLeod, was born August 27, 1937, in Detroit, Michigan, and passed in 2007. She was also known by her adopted Sanskrit name Turiyasangitananda or Turiya Alice Coltrane. She is an influential American jazz musician and composer, and in her later years a swamini. One of the few harpists in the history of jazz, she recorded many albums as a bandleader, beginning in the late 1960s and early 1970s for Impulse! and other major record labels. She was married to jazz saxophonist and composer John Coltrane, who passed in 1967.
+            </div>
             <div class="columns_3">
-                <p>Coltrane, who passed in 1967.</p>
                 <p>There is no doubt that Alice Coltrane was a huge contributor to the spiritual jazz movement. From her multifaceted collaborations to the masterful compositions she created on her own, she was truly an extraordinary musician, spiritual leader, mother, grandmother, and human being. She turned the grief and sorrow from her husband’s death into a positive, transcendental energy that has withstood the test of time and influenced many generations. </p>
-            </div>  <!-- end columns_3 -->
-        </div> <!-- end container -->
-    </section> <!-- end bio -->
+            </div>
+        </div> <!-- end row -->
+    </div> <!-- end container -->
+</section> <!-- end bio -->
+    
     
     
     <!------------------------------------------------------------------->
     
     
     
-        <section class="discography" data-scroll-index="2">
-        <div class="container">
-            <h2>Discography</h2>
+<section class="discography" data-scroll-index="2">
+    <div class="container">
+        <h2 class="noselect" data-aos="fade-up" data-aos-duration="1000">Discography</h2>
+        <div class="row" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
             
-            <div class="row">
-                <div class="columns_3">
-                     <div class="boxgrid captionfull">
-                        <a href="https://open.spotify.com/album/2zZ8GEFfH3HrIRC5UPyJRy" target="_blank"><img src="images/album01.jpg"></a>
-                        <div class="cover boxcaption">
-                            <h3>A Monastic Trio</h3>
-                            <p>1968<br>
-                            <a href="https://open.spotify.com/album/2zZ8GEFfH3HrIRC5UPyJRy" target="_blank">View on Spotify</a></p>
-                    </div></div></div>  <!-- end columns_3 -->
+
+              
+<div class="panel-wrapper">
+    <a href="#show" class="show btn" id="show">Show all</a> 
+  <a href="#hide" class="hide btn" id="hide">Show less</a> 
+  <div class="panel">
+ 
+      
+      
+        <div class="row">
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/2zZ8GEFfH3HrIRC5UPyJRy" target="_blank"><img src="images/album01.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>A Monastic Trio</h4>
+                    <p>1968<br>
+                    <a href="https://open.spotify.com/album/2zZ8GEFfH3HrIRC5UPyJRy" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                    
+
+                <div class="player align-center">
+                <audio>
+                <source src="audio/01.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
                 
-                <div class="columns_3">
-                     <div class="boxgrid captionfull">
-                        <a href="https://open.spotify.com/album/5KAKHEAZsanbPJkHKlqiIK" target="_blank"><img src="images/album02.jpg"></a>
-                        <div class="cover boxcaption">
-                            <h3>Huntington Ashram Monastery</h3>
-                            <p>1969<br>
-                            <a href="https://open.spotify.com/album/5KAKHEAZsanbPJkHKlqiIK" target="_blank">View on Spotify</a></p>
-                    </div></div></div>  <!-- end columns_3 -->
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/5KAKHEAZsanbPJkHKlqiIK" target="_blank"><img src="images/album02.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Huntington Ashram Monastery</h4>
+                    <p>1969<br>
+                    <a href="https://open.spotify.com/album/5KAKHEAZsanbPJkHKlqiIK" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
                 
-                <div class="columns_3">
-                     <div class="boxgrid captionfull">
-                         <a href="https://open.spotify.com/album/6zV55F6W8kh1qe8LHhqRbz" target="_blank"><img src="images/album03.jpg"></a>
-                        <div class="cover boxcaption">
-                            <h3>Journey in Satchidananda</h3>
-                            <p>1971<br>
-                            <a href="https://open.spotify.com/album/6zV55F6W8kh1qe8LHhqRbz" target="_blank">View on Spotify</a></p>
-                    </div></div></div>  <!-- end columns_3 -->
-            </div> <!-- end row -->
-            
-            
-            <div class="row">
-                <div class="columns_3">
-                     <div class="boxgrid captionfull">
-                         <a href="https://open.spotify.com/album/4vJH84ddOAuXvRhtS0ePex" target="_blank"><img src="images/album04.jpg"></a>
-                        <div class="cover boxcaption">
-                            <h3>World Galaxy</h3>
-                            <p>1971<br>
-                            <a href="https://open.spotify.com/album/4vJH84ddOAuXvRhtS0ePex" target="_blank">View on Spotify</a></p>
-                    </div></div></div>  <!-- end columns_3 -->
+                <div class="player2 align-center">
+                <audio>
+                <source src="audio/02.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
                 
-                <div class="columns_3">
-                     <div class="boxgrid captionfull">
-                         <a href="https://open.spotify.com/album/2YlrEXJnxx7q1wX8sVXIuV" target="_blank"><img src="images/album05.jpg"></a>
-                        <div class="cover boxcaption">
-                            <h3>Universal Consciousness</h3>
-                            <p>1971<br>
-                            <a href="https://open.spotify.com/album/2YlrEXJnxx7q1wX8sVXIuV" target="_blank">View on Spotify</a></p>
-                    </div></div></div>  <!-- end columns_3 -->
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/6zV55F6W8kh1qe8LHhqRbz" target="_blank"><img src="images/album03.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Journey in Satchidananda</h4>
+                    <p>1971<br>
+                    <a href="https://open.spotify.com/album/6zV55F6W8kh1qe8LHhqRbz" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
                 
-                <div class="columns_3">
-                     <div class="boxgrid captionfull">
-                         <a href="https://open.spotify.com/album/6TtHBrHYOmaWEAQWqOzcI3" target="_blank"><img src="images/album06.jpg"></a>
-                        <div class="cover boxcaption">
-                            <h3>Lord of Lords</h3>
-                            <p>1972<br>
-                            <a href="https://open.spotify.com/album/6TtHBrHYOmaWEAQWqOzcI3" target="_blank">View on Spotify</a></p>
-                    </div></div></div>  <!-- end columns_3 -->
-            </div> <!-- end row -->
+                <div class="player3 align-center">
+                <audio>
+                <source src="audio/03.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end columns_3 -->
+        </div> <!-- end row -->
             
             
+            
+        <div class="row">
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/4vJH84ddOAuXvRhtS0ePex" target="_blank"><img src="images/album04.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>World Galaxy</h4>
+                    <p>1971<br>
+                    <a href="https://open.spotify.com/album/4vJH84ddOAuXvRhtS0ePex" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player4 align-center">
+                <audio>
+                <source src="audio/04.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/2YlrEXJnxx7q1wX8sVXIuV" target="_blank"><img src="images/album05.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Universal Consciousness</h4>
+                    <p>1971<br>
+                    <a href="https://open.spotify.com/album/2YlrEXJnxx7q1wX8sVXIuV" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player5 align-center">
+                <audio>
+                <source src="audio/05.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/6TtHBrHYOmaWEAQWqOzcI3" target="_blank"><img src="images/album06.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Lord of Lords</h4>
+                    <p>1972<br>
+                    <a href="https://open.spotify.com/album/6TtHBrHYOmaWEAQWqOzcI3" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player6 align-center">
+                <audio>
+                <source src="audio/06.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+        </div> <!-- end row -->
+            
+      
+      
+        <div class="row">
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/5scM63daLyb9s6htJUk2pe" target="_blank"><img src="images/album07.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>The Elements</h4>
+                    <p>1974<br>
+                    <a href="https://open.spotify.com/album/5scM63daLyb9s6htJUk2pe" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player7 align-center">
+                <audio>
+                <source src="audio/04.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/2uikR6eZ1HzoGH4Ki6eneU" target="_blank"><img src="images/album08.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Illuminations</h4>
+                    <p>1974<br>
+                    <a href="https://open.spotify.com/album/2uikR6eZ1HzoGH4Ki6eneU" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player8 align-center">
+                <audio>
+                <source src="audio/05.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/4mv5aLE0vrWGPzLYfEsUxw" target="_blank"><img src="images/album09.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Eternity</h4>
+                    <p>1976<br>
+                    <a href="https://open.spotify.com/album/4mv5aLE0vrWGPzLYfEsUxw" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player9 align-center">
+                <audio>
+                <source src="audio/06.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+        </div> <!-- end row -->
+      
+      
+      
+      
+        <div class="row">
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/6XyhwP7a50E4u83H9aM8sD" target="_blank"><img src="images/album10.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Ptah The El Daoud</h4>
+                    <p>1996<br>
+                    <a href="https://open.spotify.com/album/6XyhwP7a50E4u83H9aM8sD" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player10 align-center">
+                <audio>
+                <source src="audio/04.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/6YurRchsBBtvIxym4OUmye" target="_blank"><img src="images/album11.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Priceless Jazz 20: Alice Coltrane</h4>
+                    <p>1998<br>
+                    <a href="https://open.spotify.com/album/6YurRchsBBtvIxym4OUmye" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player11 align-center">
+                <audio>
+                <source src="audio/05.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/40zYO5yqr1fz0Yx5yNYf7q" target="_blank"><img src="images/album12.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Translinear Light</h4>
+                    <p>2004<br>
+                    <a href="https://open.spotify.com/album/40zYO5yqr1fz0Yx5yNYf7q" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player12 align-center">
+                <audio>
+                <source src="audio/06.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+        </div> <!-- end row -->
+      
+      
+      
+      
+        <div class="row">
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/5jfcPmjYShcT0Djlppiw8P" target="_blank"><img src="images/album13.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Transfiguration</h4>
+                    <p>2005<br>
+                    <a href="https://open.spotify.com/album/5jfcPmjYShcT0Djlppiw8P" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player13 align-center">
+                <audio>
+                <source src="audio/04.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/43TGHl1qZfMwrcNBUxJoOi" target="_blank"><img src="images/album14.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Transcendence</h4>
+                    <p>2005<br>
+                    <a href="https://open.spotify.com/album/43TGHl1qZfMwrcNBUxJoOi" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player14 align-center">
+                <audio>
+                <source src="audio/05.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/4PASXF4fpE5RoUdKF4rgi4" target="_blank"><img src="images/album15.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>Radha-Krsna Nama Sankirtana</h4>
+                    <p>2005<br>
+                    <a href="https://open.spotify.com/album/4PASXF4fpE5RoUdKF4rgi4" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player15 align-center">
+                <audio>
+                <source src="audio/06.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+        </div> <!-- end row -->
+      
+      
+      
+      
+        <div class="row">
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/5F8U1ukn7t7IirvaeUPcee" target="_blank"><img src="images/album16.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>The Impulse Story</h4>
+                    <p>2006<br>
+                    <a href="https://open.spotify.com/album/5F8U1ukn7t7IirvaeUPcee" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player16 align-center">
+                <audio>
+                <source src="audio/04.mp3" type="audio/mpeg">
+                </audio></div>
+            </div>  <!-- end column -->
+                
+            <div class="columns_3">
+                <div class="boxgrid captionfull align-center">
+                <a href="https://open.spotify.com/album/25W9Gqvwa1eWtE7s5SsLsn" target="_blank"><img src="images/album17.jpg"></a>
+                    <div class="cover boxcaption">
+                    <h4>World Spirituality Classics 1</h4>
+                    <p>2017<br>
+                    <a href="https://open.spotify.com/album/25W9Gqvwa1eWtE7s5SsLsn" target="_blank">View on Spotify</a></p>
+                    </div>
+                </div>
+                
+                <div class="player17 align-center">
+                <audio>
+                <source src="audio/05.mp3" type="audio/mpeg">
+                </audio></div>
+                
+            </div>  <!-- end column -->
+                
+        </div> <!-- end row -->
+      
+      
+      
+      
+      
+      
+  </div><!-- end panel -->
+  <div class="fade"></div></div><!-- end panel-wrapper -->
+        
+            
+            
+        </div><!-- end row -->
             
         </div> <!-- end container -->
-    </section> <!-- end discography -->
+</section> <!-- end discography -->
     
      
     
@@ -162,31 +438,89 @@
     
     
 
-    <section class="life" data-scroll-index="3">
-        <div class="container" style="width: 1200px;">
-            <h2>Life</h2>
+<section class="life" data-scroll-index="3">
+    <div class="container" style="width: 1200px;">
+        <h2 class="noselect"  data-aos="fade-left" data-aos-duration="1000" >Life</h2>
         
-            <div class="main-carousel" data-flickity='{ "wrapAround": true }'>
-             <div class="carousel-cell">
+        <div class="main-carousel"  data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="500" data-flickity='{ "wrapAround": true }'>
+                
+            <div class="carousel-cell">
                  <div class="container">
-                 
-                     <div class="columns_2">
+                    <div class="columns_2">
                         <h3>Early Years & Career</h3>
+                        <h5>(1937–1965)</h5>
+                        <div style="border:1px solid #fff; width:400px; position:absolute; top: 95px;"></div>
                  
-                         <p>Alice McLeod was born on August 27, 1937, in Detroit, Michigan, and grew up in a musical household. Her mother was a member of the choir at her church, and her half brother became a jazz bassist. With the motivation of her father, Alice pursued music and started to perform in various clubs around Detroit, until moving to Paris in the late 1950s. She studied classical music, and also jazz with Bud Powell in Paris, where she worked as the intermission pianist at the Blue Note Jazz Club in 1960. It was there that Alice appeared on French television in a performance with Lucky Thompson, Pierre Michelot and Kenny Clarke.</p>
+                        <p>Alice McLeod was born on August 27, 1937, in Detroit, Michigan, and grew up in a musical household. Her mother was a member of the choir at her church, and her half brother became a jazz bassist. With the motivation of her father, Alice pursued music and started to perform in various clubs around Detroit, until moving to Paris in the late 1950s. She studied classical music, and also jazz with <a href="https://en.wikipedia.org/wiki/Bud_Powell" target="_blank">Bud Powell</a> in Paris, where she worked as the intermission pianist at the Blue Note Jazz Club in 1960. It was there that Alice appeared on <a href="https://www.ina.fr/video/I09159667/lucky-thompson-pierre-michelot-kenny-clarke-et-alice-macleod-lover-man-video.html" target="_blank">French television in a performance</a> with Lucky Thompson, Pierre Michelot, and Kenny Clarke.
+                        </p>
 
-                         <p>She married Kenny “Pancho” Hagood in 1960 and had a daughter with him. The marriage ended soon after, on account of Hagood’s developing heroin addiction, and Alice was forced to move back to Detroit with her daughter. She continued playing jazz as a professional in Detroit, with her own trio and as a duo with vibist Terry Pollard. </p>
+                         <p>She married <a href="https://en.wikipedia.org/wiki/Kenny_Hagood" target="_blank">Kenny “Pancho” Hagood</a> in 1960 and had a daughter with him. The marriage ended soon after, on account of Hagood’s developing heroin addiction, and Alice was forced to move back to Detroit with her daughter. She continued playing jazz as a professional in Detroit, with her own trio and as a duo with vibist <a href="https://en.wikipedia.org/wiki/Terry_Pollard" target="_blank">Terry Pollard</a>.
+                        </p>
                     </div>
                      
                     <div class="columns_2">
-                         <p style="margin-top:78px;"> In 1962–63 she played with Terry Gibbs’ quartet, during which time she met John Coltrane. In 1965 they were married in Juárez, Mexico. John Coltrane became stepfather to Alice’s daughter Michelle, and the couple had three children together: John Jr. (1964–1982, a drummer); Ravi (b. 1965, a saxophonist); and Oranyan (b. 1967, a DJ). Oranyan later played saxophone with Santana for a period of time.</p>
-                         <img src="images/johnandalice.png" width=380px>
-                         <p class="small-text" style="margin: -10px 0 0 190px;">John & Alice seated together.</p>
+                        <p style="margin-top:123px;"> In 1962–63 she played with <a href="https://en.wikipedia.org/wiki/Terry_Gibbs" target="_blank">Terry Gibbs’</a> quartet, during which time she met <a href="https://en.wikipedia.org/wiki/John_Coltrane" target="_blank">John Coltrane</a>. In 1965 they were married in Juárez, Mexico. John Coltrane became stepfather to Alice’s daughter <a href="http://michellecoltrane.com/" target="_blank">Michelle</a>, and the couple had three children together: John Jr. (1964–1982, a drummer); <a href="https://ravicoltrane.com/" target="_blank">Ravi</a> (b. 1965, a saxophonist); and <a href="https://twitter.com/djcoltrane?lang=en" target="_blank">Oranyan</a> (b. 1967, a DJ).
+                        </p>
+                        <img src="images/johnandalice.png" width=90%>
+                        <p class="small-text" style="margin: -10px 0 0 190px;">John & Alice seated together.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="carousel-cell">
+                 <div class="container">
+                     
+                    <div class="columns_2"><img src="images/a-monastic-trio.jpg" style="width:95%; margin-top:30px;"></div>
+                 
+                     <div class="columns_2">
+                        <h3>Solo Work</h3>
+                        <h5>(1967–1978)</h5>
+                        <div style="border:1px solid #fff; width:300px; position:absolute; top: 95px;"></div>
+                 
+                         <p>In 1966, Alice Coltrane replaced McCoy Tyner as pianist with John Coltrane's group. She subsequently recorded with John and continued playing with the band until his death on July 17, 1967. Their growing involvement in spirituality influenced some of John's compositions and projects, such as <a href="https://en.wikipedia.org/wiki/A_Love_Supreme" target="_blank">A Love Supreme</a>. After her husband's death, Alice continued to forward the musical and spiritual vision, and started to release records as a composer and bandleader. Her first album, <a href="https://en.wikipedia.org/wiki/A_Monastic_Trio" target="_blank">A Monastic Trio</a>, was recorded in 1967. From 1968 to 1977, she released thirteen full-length records. As the years passed, her musical direction moved further from standard jazz into the more cosmic, spiritual world. Her later albums show a progression from a four-piece lineup to a more orchestral approach, with lush string arrangements and cascading harps. Until 1973, she released music with <i>Impulse! Records</i>, the jazz label for which her husband recorded almost all of his later albums. From 1973 to 1978, she released primarily on <i>Warner Bros. Records</i> until she stepped away from the public eye.</p>
+
+                    </div></div></div>
+                
+            <div class="carousel-cell">
+                 <div class="container">
+                     <div class="columns_2">
+                        <h3>Ashram Years</h3>
+                        <h5>(1975–1995)</h5>
+                        <div style="border:1px solid #fff; width:330px; position:absolute; top: 95px;"></div>
+                         
+                         <p>After the death of her husband, Coltrane experienced a period of trial. She suffered from severe weight loss and sleepless nights, as well as hallucinations. This <i>tapas</i> (a Sanskrit term she used to describe her suffering), led her to seek spiritual guidance from the guru <a href="https://en.wikipedia.org/wiki/Satchidananda_Saraswati" target="_blank">Swami Satchidananda</a> and later from <a href="https://en.wikipedia.org/wiki/Sathya_Sai_Baba" target="_blank">Sathya Sai Baba</a>. By 1972, she abandoned her secular life, and moved to California, where she established the <a href="https://thevedanticcenter.org/" target="_blank">Vedantic Center</a> in 1975. By the late 1970s she had changed her name to <i>Turiyasangitananda</i>. She was the spiritual director, or swamini, of <i>Shanti Anantam Ashram</i> which the Vedantic Center established in 1983 near Malibu, California. Alice would perform formal and informal devotional Vedic ceremonies at the ashram. She performed solo chants, known as <i>bhajans,</i> and group chants, or <i>kirtans</i>. She developed original melodies from the traditional chants, and started to experiment by including synthesizers and sophisticated song structures. </p>
+
+                    </div>
+                     
+                    <div class="columns_2">
+                        <p style="margin-top:113px;">This culminated in her first spiritual cassette, <a href="https://www.alicecoltrane.com/turiya-sings-full" target="_blank">Turiya Sings</a>, in 1982. The cassette was released only to the members of the ashram, through her publishing company, the <i>Avatar Book Institute</i>. Through the mid 1980s into the mid 1990s, she released three more cassettes, <a href="https://en.wikipedia.org/wiki/Divine_Songs_(Swamini_Turiyasangitananda_album)" target="_blank">Divine Songs</a>, <a href="https://www.alicecoltrane.com/infinite-chants" target="_blank">Infinite Chants</a>, and <a href="https://www.alicecoltrane.com/glorious-chants" target="_blank">Glorious Chants</a>. New York-based label <i>Luaka Bop</i> released a compilation of tracks from her ashram tapes as <a href="https://luakabop.com/catalog/world-spirituality-classics-1-the-ecstatic-music-of-alice-coltrane-turiyasangitananda/" target="_blank">World Spirituality Classics 1: The Ecstatic Music of Alice Coltrane Turiyasangitananda</a> in May 2017.</p>
+
+                        <p>The ashram was destroyed in the 2018 Woolsey Fire.</p>
+                            <img src="images/ashram.jpg" width=95%>
                     </div></div></div>
                  
-            </div> <!-- end main carousel -->
-        </div> <!-- end container -->
-    </section> <!-- end life -->
+            <div class="carousel-cell">
+                 <div class="container">
+                     <div class="columns_2">
+                        <h3>Later Years & Death</h3>
+                        <h5>(1995–2007)</h5>
+                        <div style="border:1px solid #fff; width:400px; position:absolute; top: 95px;"></div>
+                         
+                         <p>The 1990s saw renewed interest in her work, which led to the release of the compilation Astral Meditations, and in 2004 she released her comeback album Translinear Light. Following a 25-year break from major public performances, she returned to the stage for three U.S. appearances in the fall of 2006, including a concert at Ann Arbor's Hill Auditorium presented by University Musical Society of the University of Michigan on September 23, which would have been John Coltrane's 80th birthday, and culminating on November 4 with a concert for the San Francisco Jazz Festival with her son Ravi, drummer Roy Haynes, and bassist Charlie Haden.
+
+                        </p>
+
+                    </div>
+                     
+                    <div class="columns_2">
+                        <p style="margin-top:113px;"> Alice Coltrane died of respiratory failure at West Hills Hospital & Medical Center in suburban Los Angeles in 2007, aged 69. She is buried alongside John Coltrane in Pinelawn Memorial Park, Farmingdale, Suffolk County, New York.</p>
+                            <img src="images/tomb.jpg" width=95%>
+                    </div></div></div>
+                
+        </div> <!-- end main carousel -->
+    </div> <!-- end container -->
+</section> <!-- end life -->
         
         
     
@@ -194,21 +528,108 @@
     
     
     
+<section class="legacy" data-scroll-index="4">
+    <div class="container">
+        <h2 class="noselect" data-aos="fade-up" data-aos-duration="1000">Legacy</h2>
+
+        
+        <div class="row"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">            
+            <div class="columns_3"><span style="float: left; width: 0.7em; font-size: 650%; font-family: 'Helvetica', sans-serif; line-height: 84%; font-weight:200;">A</span>
+            respected yet divisive figure who was scorned by the jazz mainstream for most of her life, Alice Coltrane was one of the most complicated & misunderstood of all 20th-century musicians. In this century‚ however‚ her music has grown in stature‚ & one can now hear echoes of her influence everywhere‚ from Björk’s juxtaposition of timbres & textures to Joanna Newsom’s harp playing to the twisted astral beats of her great-nephew Stephen Ellison, aka Flying Lotus. While her late husband John Coltrane’s discography remains titanic in modern jazz, Alice’s own</div>
+            
+            <div class="columns_3"> albums are equally compelling & mysterious, suggesting a musical form that moves away from jazz & into a unique sonic realm that draws on classical Indian instrumentation, atonal modern orchestration, & homemade religious synth music. The adventurous nature & spiritual import of her work continues to resonate through New Age, jazz, & experimental electronic music of all stripes. Alice used a number of names throughout her career, & collectively they chart a path of self-realization. The names she adopted demarcate radical shifts in her life & her work, serving effectively as
+            </div>
+            
+            <div class="columns_3">
+            chapter headings in the story of how a bebop pianist from Detroit evolved into one of jazz’s singular visionaries, ultimately walking away from public performance to become a guru & beacon of enlightenment for others. 
+                <iframe width=100% height=290px; src="https://www.youtube.com/embed/hyADcmvIbsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="align-center" style="padding-top:30px;"   data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900"></iframe>
+            </div>
+        </div> <!-- end row -->
+        
+        <div class="row">
+            <div class="columns_1">
+            </div> <!-- end column -->
+        </div>
+        
+    </div> <!-- end container -->
+</section> <!-- end legacy -->
+        
+        
     
-    <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script src='js/headroom.min.js'></script>
-<script src='js/scrollIt.min.js'></script>
-<script src='js/responsiveslides.min.js'></script>
-<script src='js/rollover-gallery.min.js'></script>
-<script src='js/flickity.pkgd.min.js'></script>
-<script  src="js/script.js"></script>
+    <!------------------------------------------------------------------->
+    
+    
+    
+<section class="subscribe" data-scroll-index="5">
+    <div class="container">
+        <h2 class="noselect" data-aos="fade-left" data-aos-duration="1000">Subscribe</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Complete this form to receive e-mail newsletters which will contain updates regarding Alice Coltrane,
+            <br>including events, similar artists, and mentions.
+            </p>
+        
+        <div class="columns_1" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
+            <form class="contact-form" action="gd_web_form.php" method="post">
+                <input id="name" type="text" name="name" placeholder="Your Full Name" style="float:left;">
+				<input id="email" type="text" name="email" placeholder="E-mail Address" style="float:right;">
+                <input class="submit align-center" type="submit" name="submit" value="Book Now">
+            </form>
+                
+        </div><!-- end column -->
+    </div>
+</section>
 
     
-    </body>
+        
+    <!------------------------------------------------------------------->
     
+    
+
+
+<footer data-scroll-index="6">
+    <div style="margin-left: 220px; width: 500px; float: left;">
+        <img src="images/brand.svg" width="300px" style="opacity: .5; margin: 10px 0 -15px 0;">
+        <p style="margin-top:35px;">© 2019 Jazz Co. All rights reserved.</p>
+        <p style="margin-top:35px;">Website Design: Tiffany Byrne<br>
+        Text Excerpts from: Darra Bunkasem, Andy Beta, & Wikipedia<br>
+        Contact Us: <a href="mailto:contact@jazzco.com">contact@jazzco.com</a></p>
+        <p style="margin-left:-10px; margin-top:25px;"><a data-scroll-nav="0">Home</a> | <a data-scroll-nav="1">Biography</a> | <a data-scroll-nav="2">Discography</a><br>
+        <a data-scroll-nav="3">Life</a> | <a data-scroll-nav="4">Legacy</a> | <a data-scroll-nav="5">Subscribe</a></p>
+    </div>
+    
+
+    
+    <div class="icons">
+        <a href="#" alt="Spotify" target="_blank"><img src="images/icon_spotify.svg"></a>
+        <a href="#" alt="Apple Music" target="_blank"><img src="images/icon_apple.svg"></a>
+        <a href="#" alt="Pandora" target="_blank"><img src="images/icon_pandora.svg" ></a>
+        <a href="#" alt="YouTube" target="_blank"><img src="images/icon_yt.svg"></a>
+    </div>
+    
+    
+</footer>
+            
+
+    
+        
+    <!------------------------------------------------------------------->
+    
+    
+    
+    
+<!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='js/headroom.min.js'></script>
+    <script src='js/aos.js'></script>
+    <script src='js/scrollIt.min.js'></script>
+    <script src='js/responsiveslides.min.js'></script>
+    <script src='js/rollover-gallery.min.js'></script>
+    <script src='js/flickity.pkgd.min.js'></script>
+    <script src='js/green-audio-player.min.js'></script>
+    <script  src="js/script.js"></script>
+
+    
+</body> 
     
 </html>
-
 
 

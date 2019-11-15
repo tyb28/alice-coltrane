@@ -6,7 +6,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 9999;
-  padding: 23px 20px 8px 20px;
+  padding: 13px 50px 8px 50px;
   background-color: #000;
 }
 
@@ -16,11 +16,17 @@ header {
   height:40px;
   float: left;
   text-indent: -999em;
+  margin-top: 10px;
+}
+
+.branding:hover {
+  cursor: pointer;
+  transform: scale(1.05); 
+  transition: all .2s ease;}
 }
 
 nav {
   float: right;
-  margin-top:-8px;
 }
 
 nav ul {
@@ -46,6 +52,9 @@ nav li a:hover, nav li a:active {
   color: #ff6600;
   text-decoration: none;
   cursor: pointer;
+  position: relative;
+  top:-1px;
+  transition: all .2s ease;
 }
 
 
@@ -64,12 +73,10 @@ nav li a:hover, nav li a:active {
 
 .hero-txt {
     position: absolute;
-    top: 160px;
-    float: center;
+    top: 100px;
     text-align: center;
     z-index: 99;
-    width:940px; 
-    text-shadow: 3px 3px 6px #000;
+    width:940px;
 }
 
 .cta {
@@ -93,13 +100,13 @@ nav li a:hover, nav li a:active {
 
 .bio {
   width: 100%;
-  padding: 100px 0;
+  padding: 150px 0;
   float: left;
   background-color: #2A2233;
   background-image: url("../images/bio.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: auto 100%;
 }
 
 .bio h2 {
@@ -115,7 +122,7 @@ nav li a:hover, nav li a:active {
 
 .discography {
   width: 100%;
-  padding: 100px 0;
+  padding: 150px 0;
   float: left;
   background-color: #443D4A;
 }
@@ -125,6 +132,21 @@ nav li a:hover, nav li a:active {
 }
 
 
+.player, .player2, .player3,
+.player4, .player5, .player6,
+.player7, .player8, .player9,
+.player10, .player11, .player12,
+.player13, .player14, .player15,
+.player16, .player17 {
+    height: 100px;
+    padding-top:15px;
+    padding-bottom:60px;
+}
+
+.discography .columns_1 {
+    text-align: center;
+}
+
 
 /* ---------------------------------------------------------------- */
 
@@ -133,16 +155,33 @@ nav li a:hover, nav li a:active {
 
 .life {
   width: 100%;
-  padding: 100px 0;
+  padding: 150px 0;
   float: left;
   background-color: #2A2233;
   background-image: url("../images/harp.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
+  background-size: auto 100%;
+  margin-bottom:-1px;
 }
 
 .life h2 {
-    color: #B796FF; 
+  color: #B796FF; 
+}
+
+.life h5 {
+  margin-top:-10px;
+  padding-bottom:10px;
+}
+
+.life a {
+  color: #FFB967;
+  text-decoration: none;
+  font-style:italic; 
+}
+
+.life a:hover {
+    color: #ff6600;
 }
 
 .carousel-cell {
@@ -153,16 +192,153 @@ nav li a:hover, nav li a:active {
 
 
 
+/* ---------------------------------------------------------------- */
+
+/* Legacy */
+
+
+.legacy {
+  width: 100%;
+  padding: 150px 0;
+  float: left;
+  background-color: #443D4A;
+}
+
+.legacy h2 {
+    color: #FFB967; 
+}
+
+
+
+/* ---------------------------------------------------------------- */
+
+/* Subscribe */
+
+
+.subscribe {
+  width: 100%;
+  padding: 150px 0;
+  float: left;
+  background-color: #2A2233;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.subscribe h2 {
+    color: #B796FF; 
+}
+
+.subscribe p {
+    text-align: center;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea,
+.contact-form select{
+	width: 450px;
+	height: 45px;
+	margin: 50px 10px 70px 10px;
+	padding: 5px 15px 5px 15px;
+	border: 1px solid #dadada;
+    border-radius: 20px;
+	color: #888;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:#000;
+}
+
+
+.submit {
+  display: inline-block;
+  padding: 20px 40px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  border-radius:100px;
+  border: 0px;
+  cursor: pointer;
+  background-color:#443D4A;
+  margin: 40px 0 40px 0;
+  color: #ccc;}
+
+
+.submit:hover, .submit a:hover, .submit a:active {
+  color: #B796FF;
+  text-decoration:none;
+  transform: scale(1.05); 
+  transition: all .2s ease;
+}
+
+
+.align-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* Footer */
+
+
+footer {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #000;
+  background-image: url("../images/staff1.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto 100%;
+  color: #999;
+  font-size: .8em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+footer p {
+  line-height:1.2em;
+}
+
+footer a {
+  color: #A78967;
+  margin: 0 5px 0 5px;
+}
+
+
+footer a:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.icons {
+  margin-right: 5%;
+  margin-top: 70px;
+  width: 350px;
+  float: right;
+}
+
+.icons img {
+    margin-right: 20px;
+    width: 50px;
+}
+
+.icons img:hover {
+  transform: scale(1.1); 
+  transition: all .2s ease;
+}
+
 
 /* ---------------------------------------------------------------- */
 
 /* Rollover Gallery */
 
 
-.boxgrid h3 {
+.boxgrid h4 {
   margin: 10px 10px 5px 10px;
-  color: #fff;
-  letter-spacing: -.5pt;
   text-transform: uppercase;
 }
 
@@ -190,25 +366,23 @@ nav li a:hover, nav li a:active {
 .boxgrid {
   width: 250px;
   height: 250px;
-  float: center;
   background-color: #161613;
   overflow: hidden;
   position: relative;
-  border-radius: 10px;
-  margin: 0 0 70px 25px;
+  border-radius: 12px;
+  margin-bottom: 12px;
 }
 
 .boxgrid:hover {
-  width: 260px;
-  height: 260px; transition: all .2s ease;
-  margin: -4px 0 60px 18px;
+  transform: scale(1.05); 
+  transition: all .2s ease;
 }
 
 .boxcaption {
   float: left;
   position: absolute;
   background-color: #000;
-  height: 120px;
+  height: 140px;
   width: 100%;
   opacity: .8;
 } 
@@ -241,6 +415,75 @@ nav li a:hover, nav li a:active {
 .headroom--unpinned {
   transform: translateY(-100%);
 }
+
+
+
+
+/* ---------------------------------------------------------------- */
+
+/* Show more */
+
+
+
+.panel-wrapper {
+  position: relative;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  border-radius:100px;
+  cursor: pointer;
+  background-color:#2A2233;
+  margin: 40px 0 40px 0;
+  color: #ccc;
+  left: 36%;
+}
+
+.btn:hover, .btn a:hover, .btn a:active {
+  color: #FFB967;
+  text-decoration:none;
+  transform: scale(1.05); 
+  transition: all .2s ease;}
+
+.show, .hide {
+  position: absolute;
+  bottom: -1em;
+  z-index: 100;
+  text-align: center;
+}
+
+.hide {display: none;}
+.show:target {display: none;}
+.show:target ~ .hide {display: block;}
+.show:target ~ .panel {
+   max-height: 2000px; 
+}
+
+.show:target ~ .fade {
+  margin-top: 0;
+}
+
+.panel {
+  position: relative;
+  margin: 2em auto;
+  max-height: 750px;
+  overflow: hidden;
+  transition: max-height 1.5s ease;
+}
+
+.fade {
+  background: linear-gradient(to bottom, rgba(68,61,74, 0) 0%,rgba(68,61,74) 10%);
+  height: 150px;
+  margin-top: -150px;
+  position: relative;
+}
+
 
 
 

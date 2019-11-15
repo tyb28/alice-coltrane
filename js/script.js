@@ -1,3 +1,8 @@
+  AOS.init();
+
+
+
+
 $.scrollIt({
   upKey: 38,             // key code to navigate to the next section
   downKey: 40,           // key code to navigate to the previous section
@@ -12,6 +17,8 @@ $.scrollIt({
 var myElement = document.querySelector("header");
 var headroom  = new Headroom(myElement);
 headroom.init(); 
+
+
 
 
 $(".rslides").responsiveSlides({
@@ -34,6 +41,8 @@ $(".rslides").responsiveSlides({
 });
 
 
+
+
 $(document).ready(function() {
   $('.boxgrid.captionfull').hover(function() {
     $(".cover", this).stop().animate({
@@ -51,3 +60,45 @@ $(document).ready(function() {
     });
   });
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    new GreenAudioPlayer('.player',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player2',{
+        stopOthersOnPlay: true});    
+    new GreenAudioPlayer('.player3',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player4',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player5',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player6',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player7',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player8',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player9',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player10',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player11',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player12',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player13',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player14',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player15',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player16',{
+        stopOthersOnPlay: true});
+    new GreenAudioPlayer('.player17',{
+        stopOthersOnPlay: true});
+});
+
+
