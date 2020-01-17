@@ -1,0 +1,250 @@
+
+/* ---------- [ Border Box ] ----------- */
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+	html {
+		box-sizing: border-box;
+        scroll-behavior: smooth;
+		}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+		}
+
+
+/* Basic Styles */
+	
+		body {
+            font-size:16px;
+			color:  #fff;
+			font-family: 'Georgia', serif;
+			font-style: normal;
+			line-height: 29px;
+            text-align: left;
+            letter-spacing:.4pt;
+            background-color: #2A2233;}
+
+        a {text-decoration: none;}
+
+
+/* Typography */
+
+		p {
+			margin: 0 0 20px 0;
+			}
+
+		h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+			font-size: 90px;
+            color:#fff;
+			line-height: 70px;
+            text-transform: uppercase;
+
+			}
+
+		h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+			font-size: 50px;
+			line-height: 50px;
+            margin-bottom: 70px;;
+            letter-spacing: 2pt;
+            text-transform: uppercase;
+            text-align: center;
+			}
+
+		h3 {
+			font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+			font-size: 28px;
+			line-height: 22px;
+            letter-spacing: 0.03em;
+            color: #fff;
+			}
+
+		h4 {
+			font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+			font-size: 20px;
+			line-height: 22px;
+            letter-spacing: -.025em;
+            color: #fff;
+			}
+
+		h5 {
+			font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+			font-size: 18px;
+			line-height: 15px;
+            letter-spacing: 0.2em;
+            color: #fff;
+			}
+
+		.large-text {
+			font-size: 21.33px;
+			line-height: 35px;
+            }
+		
+		.small-text {
+			font-size: 13px;
+            color: #857990;}
+
+        .cap {
+            font-size:22px;
+            }
+        
+        .tag {
+            font-family: 'Georgia', serif;
+			font-weight: regular;
+			font-size: 21.33px;
+            letter-spacing: 0.03em;
+            color: #A4391D;
+            text-decoration: none;}
+
+
+
+/* Simple Grid - 12 columns 60/20    */
+
+		
+	/* 1 column */
+		.columns_1 {
+			width: 940px;
+			float: left;
+			}
+
+	/* 2 columns */
+		.columns_2 {
+			width: 460px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_2:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 3 columns */
+		.columns_3 {
+			width: 300px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_3:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 4 columns */
+		.columns_4 {
+			width: 220px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_4:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 6 columns */
+		.columns_6 {
+			width: 140px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_6:last-of-type {
+			margin-right: 0;
+			}
+
+	/* 12 columns */
+		.columns_12 {
+			width: 140px;
+			float: left;
+			margin-right: 20px;
+			}
+
+		.columns_12:last-of-type {
+			margin-right: 0;
+			}
+
+        .row {
+            clear:both;}
+        
+
+
+/* Buttons */
+
+
+
+        .button a:link, .button a:visited {
+			display: inline-block;
+			padding: 20px 40px;
+			text-align:center;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            text-transform:uppercase;
+            letter-spacing:0.1em;
+			border-radius:100px;
+			cursor: pointer;
+            background-color:#2A2233;
+            margin: 40px 0 40px 0;
+            color: #ccc;
+			}
+
+
+        .button:hover, .button a:hover, .button a:active {
+            color: #ff6600;
+			text-decoration:none;
+            transform: scale(1.05); 
+            transition: all .2s ease;}
+
+
+
+/* Miscellaneous */
+
+		.align-right {
+			float: right;
+			margin: 0 0 0 10px;
+			padding: 0;
+			}
+
+		.align-left {
+			float: left;
+			margin: 0 10 0 0px;
+			padding: 0;
+			}
+
+		.align-center {
+			display: block;
+			margin: 0 auto;
+			}
+
+		.container {
+			width:940px;
+			display: block;
+			margin: 0 auto;
+			overflow: hidden;
+			clear: both;
+			}
+
+        .noselect { 
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+}}
+
+
+
+
+
+
+
+
+
+
+
+		
