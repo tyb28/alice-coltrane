@@ -322,12 +322,12 @@ footer a:hover {
 }
 
 .icons img {
-    margin-right: 20px;
-    width: 50px;
+    margin-right: 15px;
+    width: 30px;
 }
 
 .icons img:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: all .2s ease;
 }
 
